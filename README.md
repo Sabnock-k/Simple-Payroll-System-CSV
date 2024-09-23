@@ -16,9 +16,9 @@ This project implements a simple payroll system that manages employee records an
 
 # Installation
 1. Clone the repository:
-   - git clone https://github.com/Sabnock-k/Simple-Payroll-System-CSV.git
+- git clone https://github.com/Sabnock-k/Simple-Payroll-System-CSV.git
 2. Navigate to the project directory:
-   - cd Simple-Payroll-System-CSV
+- cd Simple-Payroll-System-CSV
 
 
 Feel free to customize any sections as needed!
