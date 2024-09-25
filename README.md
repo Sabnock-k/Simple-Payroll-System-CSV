@@ -11,7 +11,7 @@ This project implements a simple payroll system that manages employee records an
 
 ## Getting Started
 - Payroll csv - is the file which the data stored when you make a Payroll
-- Employees csv - list of data about your employees
+- Employee csv - list of data about your employees
 # Prerequisites
 - Python 3.x
 
