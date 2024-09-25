@@ -98,7 +98,7 @@ def show_payroll():
             else:
                 print(f"\n{'LIST EMPTY'.center(70)}\n")
     except FileNotFoundError:
-            print(f"Error: The file '{PAYROLL_FILE}' does not exist.")
+            print(f"Error: The file '{PAYROLL_FILE}' does not exist or Doesn't have data.")
     except Exception as e:
             print(f"An error occurred while writing to payroll: {e}") 
 
