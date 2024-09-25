@@ -1,6 +1,7 @@
 '''
+
 © SIMPLE PAYROL SYSTEM
-RAFAEL B. PATIÑO -- BSIT
+
 '''
 
 import csv
@@ -66,9 +67,6 @@ def create_payroll():
                     csv_Pwriter.writerow(['IDNO', 'LASTNAME', 'FIRSTNAME', 'DAILY RATE', 'DAYS WORK', 'TOTAL PAY'])
                 csv_Pwriter.writerow([e_no['IDNO'], e_no['LASTNAME'], e_no['FIRSTNAME'], e_no['DAILYRATE'], w_day, total_pay])
             print("\nPAYROLL ENTRY CREATED SUCCESFULLY.")
-        except FileNotFoundError:
-            print(f"Error: The file '{PAYROLL_FILE}' does not exist.")
-            pass
         except Exception as e:
             print(f"An error occurred while writing to payroll: {e}")
         time.sleep(1)
